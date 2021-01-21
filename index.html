@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script language="JavaScript" src="script.js"></script>
     <title>CONTABILIDADE</title>
   </head>
   <body>
@@ -30,8 +31,8 @@
             <i class="sub"></i>
           </button>
           <div class="dropdown-servico">
-            <a href="#">Contabilidade/Fiscal Depatamento Pessoal </a>
-            <a href="#">Assesoria Legal</a>
+            <a href="#">Contabilidade/Fiscal Departamento Pessoal </a>
+            <a href="#">Assessoria Legal</a>
             <a href="#">Auditoria</a>
             <a href="#">Consultoria</a>
             <a href="#">Finance</a>
@@ -69,6 +70,24 @@
         <!--Final do menu Fale Conosco-->
       </div>
       <!--Final do menu -->
+      <!--Começo site-->
+      <div class="site"> 
+        <!--Começo logo-->
+        <div class="logo">
+          <div id="imagens" class="post1">
+            <script>
+              for(i=1;i<=5;i++){
+              	document.write('<div id=\"foto'+i+'\">');
+			        	  document.write('<a href=\"#\" onclick=\"mostrarFoto('+i+')\">');
+			        	    document.write('<img src=\"img/img ('+i+').jpg\"/>');
+				          document.write('</a>');
+				        document.write('</div>');          
+              }
+            </script>
+          </div>
+        </div>
+        <!--FIM logo-->
+      </div>
     </div>
   </body>
-</html> 
+</html>

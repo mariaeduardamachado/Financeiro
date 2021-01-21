@@ -227,3 +227,45 @@ html, body{
   display: block;
 }
 /*Final do dropdown Fale Conosco*/
+
+/*Começo site*/
+.site{
+	width:790px;
+	height:200px;
+	margin: 0px auto;
+}
+/*Final site*/
+
+/*Começo logo*/
+.logo{
+  width:800px;
+  height:300px;
+  overflow:hidden;
+  }
+/*Fim logo*/
+
+/*Começo imagem*/
+  #imagens{
+  width:10000px;
+  height:50px;
+  transition:all 1s;
+  }
+  #imagens img{
+  float:left;
+  }
+  .pos1{
+  margin-left:185px;
+  }
+  .pos2{
+    margin-left:-1100px;
+  }
+  .pos3{
+    margin-left:-2200px;
+  }
+  .pos4{
+    margin-left:-3300px;
+  }
+  .pos5{
+    margin-left:-4400px;
+  }
+  /*Fim imagem*/
